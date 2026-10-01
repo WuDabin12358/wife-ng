@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.wudabin.wifeng.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "HeadlessGameRendererMixin",
+    "HeadlessWorldRendererMixin",
+    "MinecraftClientTickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,2 @@
+# Optional PNG preview scripts only; planner and unit tests use the standard library.
+Pillow>=10,<13

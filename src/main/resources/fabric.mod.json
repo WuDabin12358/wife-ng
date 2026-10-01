@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "wife_ng",
+  "version": "${version}",
+  "name": "Wife NG",
+  "description": "A structured Minecraft agent body with perception, tasks and Baritone execution.",
+  "authors": [
+    "Wu_Dabin"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cn.wudabin.wifeng.WifeNgClient"
+    ]
+  },
+  "mixins": [
+    "wife_ng.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "~1.16.5",
+    "java": ">=8"
+  },
+  "icon": "assets/wife_ng/icon.png"
+}
